@@ -1,0 +1,35 @@
+button{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-around;
+}
+.con{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.die{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 90px;
+    margin: 5px;
+}
+.sum{
+    text-align: center;
+    font-size: 100px;
+}

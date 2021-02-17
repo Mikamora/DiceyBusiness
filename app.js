@@ -3,7 +3,7 @@ let con = document.querySelector(".con");
 let sums = document.querySelector(".sum");
 class Die {
     constructor() {
-        let div = document.createElement("div");
+        let div = document.createElement("div"); //could have added this. instead of let to pretty much everything
         div.className = "die";
         let val = this.Roll();
         div.textContent = val;
@@ -24,7 +24,7 @@ class Die {
         })
     }
     Roll() {
-        return randomVal(1, 6);
+        return randomVal(1, 7);
     }
 }
 
